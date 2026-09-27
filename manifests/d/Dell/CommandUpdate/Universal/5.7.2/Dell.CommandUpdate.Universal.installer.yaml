@@ -23,7 +23,7 @@ ExpectedReturnCodes:
 UpgradeBehavior: install
 Dependencies:
   PackageDependencies:
-  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.8
+  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.10
 ProductCode: '{1243A8BB-4137-47B3-BAAE-783E7D662407}'
 ReleaseDate: 2026-09-11
 AppsAndFeaturesEntries:
