@@ -9,7 +9,7 @@ PublisherUrl: https://aws.amazon.com/
 PublisherSupportUrl: https://console.aws.amazon.com/support/home/
 PrivacyUrl: https://aws.amazon.com/privacy/
 Author: Amazon Web Services, Inc
-PackageName: Amazon AppStream Client
+PackageName: Amazon WorkSpaces Applications Client
 PackageUrl: https://aws.amazon.com/appstream2/
 License: Proprietary
 LicenseUrl: https://aws.amazon.com/agreement/
