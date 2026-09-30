@@ -1,0 +1,59 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Dropbox.Dropbox
+PackageVersion: 272.4.3731
+Platform:
+- Windows.Desktop
+Scope: machine
+InstallModes:
+- interactive
+- silent
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20272.4.3731%20Offline%20Installer.x86.exe
+  InstallerSha256: 11958274F11E0DE6292EFA033AD8188E46DB9F40C6CF3BAEE22F2DA892FC3B28
+  UpgradeBehavior: install
+- Architecture: x64
+  InstallerType: exe
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20272.4.3731%20Offline%20Installer.x64.exe
+  InstallerSha256: 96168DED0B2764FD2144A829A079347E7CEABC272B4387E416921F7CBC37AB47
+  UpgradeBehavior: install
+- Architecture: arm64
+  InstallerType: exe
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20272.4.3731%20Offline%20Installer.arm64.exe
+  InstallerSha256: 37C16AD92DD3936DF875E1D09D4092EDFE08A8FF720A9963C63198592E73577D
+  UpgradeBehavior: install
+- InstallerLocale: en-US
+  Architecture: x86
+  InstallerType: wix
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20272.4.3731%20Enterprise%20Installer.x86.msi
+  InstallerSha256: 37E00B482D7C14032F7CB22C45C95E2CE4A7445104D634FF21BD60F53B1BE58A
+  ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+  AppsAndFeaturesEntries:
+  - DisplayVersion: 17.4.3731
+    ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+    UpgradeCode: '{CC46080E-4C33-4981-859A-BBA2F780F31E}'
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: wix
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20272.4.3731%20Enterprise%20Installer.x64.msi
+  InstallerSha256: 346C95E57D7D3E21ED633547E3AD76D81BD2ADD7E72054500FADB1C8B1A08ADE
+  ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+  AppsAndFeaturesEntries:
+  - DisplayVersion: 17.4.3731
+    ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+    UpgradeCode: '{CC46080E-4C33-4981-859A-BBA2F780F31E}'
+- InstallerLocale: en-US
+  Architecture: arm64
+  InstallerType: wix
+  InstallerUrl: https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20272.4.3731%20Enterprise%20Installer.arm64.msi
+  InstallerSha256: D6EF886C4608B7CDFA414E1598EE50BD4CF6004988EF0CC5283677C1C38C130F
+  ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+  AppsAndFeaturesEntries:
+  - DisplayVersion: 17.4.3731
+    ProductCode: '{EF32E4C6-9E91-5834-930D-8F233142C9B1}'
+    UpgradeCode: '{CC46080E-4C33-4981-859A-BBA2F780F31E}'
+ManifestType: installer
+ManifestVersion: 1.12.0
