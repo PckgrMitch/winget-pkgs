@@ -1,0 +1,18 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: UPS.WorldShip
+PackageVersion: '29.0'
+PackageLocale: en-US
+Publisher: United Parcel Service of America, Inc.
+PublisherUrl: https://www.ups.com/
+PublisherSupportUrl: https://www.ups.com/us/en/business-solutions/business-shipping-tools/worldship/worldship-support
+Author: United Parcel Service of America, Inc.
+PackageName: UPS WorldShip
+PackageUrl: https://www.ups.com/us/en/business-solutions/business-shipping-tools/worldship
+License: Proprietary
+LicenseUrl: https://assets.ups.com/adobe/assets/urn:aaid:aem:c271a615-2207-4626-8507-521abe266d37/original/as/uta-en-GLOBAL.pdf
+Copyright: Copyright ©1994-2026 United Parcel Service of America, Inc. All rights reserved.
+ShortDescription: UPS WorldShip is Windows-based shipping software designed to process high-volume shipments, create shipping labels, manage shipping profiles, and integrate with business systems.
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
