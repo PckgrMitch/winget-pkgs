@@ -3,7 +3,7 @@
 
 PackageIdentifier: UPS.WorldShip
 PackageVersion: '29.0'
-InstallerType: portable
+InstallerType: exe
 InstallModes:
 - interactive
 - silent
