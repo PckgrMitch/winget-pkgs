@@ -1,0 +1,18 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: CambiumAssessment.TXSecureBrowser
+PackageVersion: '18.0'
+PackageLocale: en-US
+Publisher: Cambium Assessment, Inc.
+PublisherUrl: https://www.cambiumassessment.com/
+PublisherSupportUrl: https://www.texasassessment.gov/contact.html
+Author: Cambium Assessment, Inc.
+PackageName: TX Secure Browser
+PackageUrl: https://www.texasassessment.gov/secure-browsers.html
+License: Proprietary
+LicenseUrl: https://www.texasassessment.gov/terms.html
+Copyright: Copyright © Cambium Assessment, Inc. All rights reserved.
+ShortDescription: Secure browser used to administer online assessments for the Texas Assessment Program.
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

@@ -1,0 +1,36 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: CambiumAssessment.TXSecureBrowser
+PackageVersion: '18.0'
+InstallerLocale: en-US
+InstallerType: wix
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2025-07-08
+InstallationMetadata:
+  DefaultInstallLocation: '%ProgramFiles%\TXSecureBrowser'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://sb.portal.cambiumast.com/geturls?clientName=texas&operatingSystem=windows
+  InstallerSha256: 778214EF87278CD4F967B0AD6C28A25AB5E98A8C67DB530750F7CF9B5FC4E5FE
+  ProductCode: '{954E2916-942F-4AAA-B91B-0AD40C33D41D}'
+  AppsAndFeaturesEntries:
+  - DisplayName: TXSecureBrowser
+    Publisher: CAI
+    ProductCode: '{954E2916-942F-4AAA-B91B-0AD40C33D41D}'
+    UpgradeCode: '{AFACDF7F-3B08-43D4-BA6F-837A67A0682A}'
+- Architecture: arm64
+  InstallerUrl: https://sb.portal.cambiumast.com/geturls?clientName=texas&operatingSystem=windows&architecture=arm64
+  InstallerSha256: 2CCBD83411BC191DBBF5260D2A2CC6388A37340F4F001B33CE945A6E1E52C70A
+  ProductCode: '{8EE8C5A1-C31A-47BF-85FB-0DFD0C0EE20C}'
+  AppsAndFeaturesEntries:
+  - DisplayName: TXSecureBrowser
+    Publisher: CAI
+    ProductCode: '{8EE8C5A1-C31A-47BF-85FB-0DFD0C0EE20C}'
+    UpgradeCode: '{AFACDF7F-3B08-43D4-BA6F-837A67A0682A}'
+ManifestType: installer
+ManifestVersion: 1.12.0
