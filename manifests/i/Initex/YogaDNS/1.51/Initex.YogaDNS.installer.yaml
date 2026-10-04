@@ -21,7 +21,7 @@ ElevationRequirement: elevatesSelf
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\YogaDNS'
 Installers:
-- Architecture: x86
+- Architecture: x64
   InstallerUrl: https://yogadns.com/download/YogaDNSSetup.exe
   InstallerSha256: 59E51926DBBB74D18C6D77DA3FC25F5B5523C76B6B45BDEFA96932064030B348
 ManifestType: installer
